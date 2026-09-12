@@ -8,10 +8,10 @@ AEnemyCharacter::AEnemyCharacter()
 {
  	// Set this character to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
-	HealthComp = CreateDefaultSubobject<UHealthComponent>(TEXT("Health"));
-	StatComp = CreateDefaultSubobject<UStatComponent>(TEXT("StatComp"));
+	//HealthComp = CreateDefaultSubobject<UHealthComponent>(TEXT("Health"));
+	//StatComp = CreateDefaultSubobject<UStatComponent>(TEXT("StatComp"));
 
-	Tags.Add(FName("Enemy"));
+	//Tags.Add(FName("Enemy"));
 }
 
 // Called when the game starts or when spawned
